@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Home | Starbooks</title>
+        <link rel = "icon" href = "starbooks.png" type = "image/x-icon">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@700&family=Libre+Baskerville&family=Montserrat:wght@300&family=Patrick+Hand+SC&family=Red+Hat+Text:wght@600&family=Secular+One&display=swap" rel="stylesheet">
+
+        <style>
+        
+        body{
+            background-color: #AA8B56;
+            margin: 0;
+            overflow-x: hidden;
+        }
+
+        .navbar {
+        font-family: 'Secular One', sans-serif;
+        padding: 0px;
+        background-color: rgb(255, 255, 255);
+        overflow: hidden;
+        position: fixed; 
+        top: 0; 
+        width: 100%; 
+  
+        }
+
+        .navbar a {
+        float: left;
+        color: black;
+        text-align: center;
+        padding: 13px 25px;
+        text-decoration: none;
+        font-size: 17px;
+        }
+
+        .navbar a:hover {
+        color: #0e5e34;
+        }
+
+        .navbar a.active {
+        border-bottom: 3px solid #4E6C50;  
+        color: #AA8B56;
+        }
+        
+        .bg-img {
+        background-image: url("cafeEe.png");
+        min-height: 658px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        position: relative;
+}
+
+        .content {
+            text-align: center;
+        }
+
+
+        .text {
+            font-family: 'Lexend', sans-serif;
+            position: absolute;
+            top: 40%;
+            right: 25%;
+            color: white;
+            padding-left: 20px;
+            padding-right: 20px;
+            font-size: 30px;
+            text-align: center;
+            
+            
+        }
+        .container {
+        font-family: 'Lexend', sans-serif;
+        position: relative;
+        text-align: center;
+        color: white;
+        width: 100%;
+        
+        }
+
+
+    .quote {
+        font-family: 'Patrick Hand SC', cursive;
+        position: absolute;
+        font-size: 25px;
+        text-align: center;
+        top: 80%;
+        right: 18%;
+        color: #2e1d00;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 30px;
+    }
+
+    .description {
+        font-family: 'Montserrat', sans-serif;
+        color: #ddbd87;
+        background-color: #364d47;
+        text-align:center;
+        padding:50px 80px;
+        text-align: center;
+        font-size: 15px;
+        
+    }
+
+    .bg-img1 {
+        background-image: url("sbcoffbeans.jpg");
+        min-height: 658px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        position: relative;
+}
+
+    video {
+        background-color: #AA8B56;
+        width: 100%;
+    }
+    
+    .to-menu {
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .menu-button{
+        font-family: 'Lexend', sans-serif;
+        margin-top: 50px;
+        padding: 8px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-style: solid;
+        border-radius: 50px;
+        text-align: center;
+        color: white;
+        border-width: 0.5px;
+    
+    }
+
+    .to-menu {
+        font-family: 'Montserrat', sans-serif;
+        color: #ddbd87;
+        background-color: #364d47;
+        text-align:center;
+        padding:50px 80px;
+        text-align: center;
+        font-size: 15px;
+        
+    }
+
+        </style>
+    </head>
+
+    <body>
+    <div class="content">
+          
+    
+      <div class="bg-img"></div>
+            <div class="text">
+                <p>Welcome to</p>
+                <h1 style="color: #042514; line-height: 0px;">STARBOOKS COFFEE!</h1>
+                <p class="quote">"good coffee, good book, good day."</p>
+            </div>
+              
+          <div class="navbar">
+            <a class="logo" href="index.html"><img src="starbooks.png" alt="starbookslogo" width="55"></a>
+            <a class="active" href="index.html" style="padding-top: 30px;">HOME</a>
+            <a href="menu.html" style="padding-top: 30px;">MENU</a>
+            <a href="about.html" style="padding-top: 30px;">ABOUT</a>
+          </div>
+
+          <div class="description">
+            <h3 style="text-align:center;">Starbooks Coffee</h3>
+            <p>Starbooks Coffee is a book café made for bookworms, coffee enthusiasts,<br> and bookworms that are coffee enthusiasts as well !<br>
+               Scroll down to see a preview of what we have in store for you.</p>
+          </div>
+
+          <video width="640" height="565" poster="posterpic.jpg" controls autoplay loop>
+        
+            <source src="preview.MOV" type="video/mp4">
+            <source src="preview.MOV" type="video/ogg">
+          </video>
+
+        <div class="to-menu">
+            <h3 style="text-align:center;">Interested Enough?</h3>
+             <a class="menu-button" href="menu.html">Discover the Flavors</a>
+        </div>
+
+        
+    </div>
+    </body>
+</html>
